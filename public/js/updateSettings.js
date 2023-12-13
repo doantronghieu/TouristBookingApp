@@ -4,7 +4,6 @@ import { showAlert } from './alerts';
 export const updateSettings = async (data, type) => {
   // type: 'password', 'data'
 
-  const baseUrl = 'http://127.0.0.1:3000';
   const userApiUrl = 'api/v1/users';
 
   try {
