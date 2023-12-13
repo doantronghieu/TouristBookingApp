@@ -12,8 +12,8 @@ export const updateSettings = async (data, type) => {
 
     const url =
       type === 'password'
-        ? `${baseUrl}/${userApiUrl}/updateMyPassword`
-        : `${baseUrl}/${userApiUrl}/updateMe`;
+        ? `/${userApiUrl}/updateMyPassword`
+        : `/${userApiUrl}/updateMe`;
 
     const res = await axios({
       method: 'PATCH',

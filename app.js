@@ -8,6 +8,7 @@ const xss = require('xss-clean');
 const hpp = require('hpp');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
+const compression = require('compression');
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
@@ -81,7 +82,7 @@ app.use(
           'https://*.mapbox.com',
           'https://*.cloudflare.com/',
           'https://bundle.js:*',
-          'ws://127.0.0.1:*/',
+          'ws:// .0.0.1:*/',
         ],
         upgradeInsecureRequests: [],
       },
@@ -123,6 +124,8 @@ app.use(
     ],
   })
 ); // Prevent parameter pollution of the query string
+
+app.use(compression());
 
 // Test middleware
 app.use((req, res, next) => {
