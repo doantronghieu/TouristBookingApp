@@ -7,8 +7,8 @@
     "main": false
   },
   "engines": {
-    "node": "18.x",
-    "npm": "9.x"
+    "node": "18.16.1",
+    "npm": "9.5.1"
   },
   "scripts": {
     "start": "node server.js",
