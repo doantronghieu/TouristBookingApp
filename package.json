@@ -1,7 +1,7 @@
 {
   "name": "natours",
   "version": "1.0.0",
-  "description": "",
+  "description": "NodeJs",
   "main": "app.js",
   "targets": {
     "main": false
@@ -11,8 +11,8 @@
     "npm": "9.x"
   },
   "scripts": {
-    "start": "nodemon server.js",
-    "start:render": "node server.js",
+    "start": "node server.js",
+    "start:render": "SET NODE_ENV=production&& node server.js",
     "start:dev": "nodemon server.js",
     "start:prod": "SET NODE_ENV=production&& nodemon server.js",
     "debug": "ndb server.js",
