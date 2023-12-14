@@ -6,7 +6,6 @@
   "targets": {
     "main": false
   },
-
   "scripts": {
     "start": "node server.js",
     "start:render": "SET NODE_ENV=production&& node server.js",
