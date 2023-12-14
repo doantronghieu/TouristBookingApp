@@ -372,10 +372,10 @@ body {
     linear,
     left top,
     right bottom,
-    from(#7dd56f),
-    to(#28b487)
+    from(#7dd56f7c),
+    to(#28b4888f)
   );
-  background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
+  background-image: linear-gradient(to right bottom, #7dd56f7c, #28b4888f);
   opacity: 0.85;
 }
 
@@ -588,10 +588,10 @@ body {
     linear,
     left top,
     right bottom,
-    from(#7dd56f),
-    to(#28b487)
+    from(#7dd56f83),
+    to(#28b4888f)
   );
-  background: linear-gradient(to right bottom, #7dd56f, #28b487);
+  background: linear-gradient(to right bottom, #7dd56f83, #28b4888f);
   clip-path: polygon(
     0 var(--section-rotate),
     100% 0,
@@ -1119,10 +1119,10 @@ body {
     linear,
     left top,
     right bottom,
-    from(#7dd56f),
-    to(#28b487)
+    from(#7dd56f77),
+    to(#28b4887c)
   );
-  background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
+  background-image: linear-gradient(to right bottom, #7dd56f77, #28b4887c);
   opacity: 0.7;
 }
 .card__picture-img {
